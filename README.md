@@ -18,7 +18,7 @@ Content structure:
         1. First occurence of ':' is found and
         2. Everything before the first occurence of ':' is 'key'
         2. Everything after the first occurence of ':' is 'value' (quotes " are trimmed from the end and beginning of the string)
-    - Properties can be written as 'tree_sample_property' and then is inherited by all subpages untill overwritten by 'sample_property' or other 'tree_sample_property'
+    - Properties can be written as 'tree_sample_property' and then is inherited by all subpages untill overwritten by 'sample_property' or other 'tree_sample_property'. Properties are always accessible as sample_property in the code even if inherited via 'tree_'.
 - .[directory] contains a content of widget area of specific page
     - files within the folder represents a content
     - extensions mark which file parser/renderer needs to be used and can be customized
